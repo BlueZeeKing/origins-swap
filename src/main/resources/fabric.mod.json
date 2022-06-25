@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "origins-swap",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Origins Swap",
+  "description": "Switch origins on death",
   "authors": [
-    "Me!"
+    "BlueZeeKing24"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/BlueZeeKing/origins-swap#readme",
+    "sources": "https://github.com/BlueZeeKing/origins-swap"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "dev.blueish.origins.swap.OriginsSwap"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "originswap.mixins.json"
   ],
 
   "depends": {
@@ -31,8 +31,5 @@
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
