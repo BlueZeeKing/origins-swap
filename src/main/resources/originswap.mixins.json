@@ -4,6 +4,7 @@
   "package": "dev.blueish.origins.swap.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ModPacketsC2SInvoker",
     "ServerPlayerEntityMixin"
   ],
   "injectors": {
